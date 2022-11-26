@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="frame">
+        <table>
+            <tr>
+                <th colspan="4" id="display"></th>
+            </tr>
+            <tr>
+                <td><button id="AC" onclick="input('AC')">AC</button></td>
+                <td><button id="sign" onclick="input('sign')">+/-</button></td>
+                <td><button id="percentage" onclick="input('%')">%</button></td>
+                <td><button id="division" onclick="input('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="seven" onclick="input('7')">7</button></td>
+                <td><button id="eight" onclick="input('8')">8</button></td>
+                <td><button id="nine" onclick="input('9')">9</button></td>
+                <td><button id="mul" onclick="input('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button id="four" onclick="input('4')">4</button></td>
+                <td><button id="five" onclick="input('5')">5</button></td>
+                <td><button id="six" onclick="input('6')">6</button></td>
+                <td><button id="sub" onclick="input('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="one" onclick="input('1')">1</button></td>
+                <td><button id="two" onclick="input('2')">2</button></td>
+                <td><button id="three" onclick="input('3')">3</button></td>
+                <td><button id="add" onclick="input('+')">+</button></td>
+            </tr>
+            <tr>
+                <td ><button id="zero" onclick="input('0')">0</button></td>
+                <td><button id="point" onclick="input('.')">.</button></td>
+                <td><button id="equal" onclick="input('=')">=</button></td>
+                <td><button id="equal" onclick="input('C')"><img src="https://cdn0.iconfinder.com/data/icons/ios-edge-line-1/25/Backspace-512.png" alt="A" style="width: 2rem;"></button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="calculation.js"></script>
+</html>
